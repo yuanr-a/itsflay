@@ -1,0 +1,59 @@
+body {
+  /*position: relative;*/
+  font-family: 'Josefin Sans', sans-serif;
+  height: 100%;
+  font-size: 1.25rem;
+}
+.content {
+	width: 70%;
+	margin: 0 auto;
+}
+.pad-spacer {
+  padding: 7.5rem 0;
+}
+.card-modif {
+  transition: 0.4s;
+}
+.card-modif:hover {
+  transition: 0.4s;
+  transform: translate(0, -10px);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  border: 0;
+}
+.panels {
+	background-position: center;
+	background-size: cover;
+}
+.links {
+	transition: .2s;
+}
+.links:hover {
+	transition: .2s;
+	transform: translateX(.25rem);
+}
+.links-icon {
+	transition: .2s;
+}
+.links-icon:hover {
+	transition: .2s;
+	transform: translateY(-.25rem);
+}
+
+.bg-filter {
+	background-color: #09011c60;
+}
+#home-bg{
+	background-image: url(https://cdn176.picsart.com/219546791012202.gif?to=min&r=640);
+}
+#aboutme-bg {
+	background-image: url(https://33.media.tumblr.com/0440d57885926a82ac793ca9443b9fd8/tumblr_ndc1amM7ET1s5zra5o1_500.gif);
+}
+#works-bg {
+	background-image: url(https://media1.tenor.com/images/5898c3043432ef1fa28282146e6586f2/tenor.gif?itemid=13617044);
+}
+#social-bg {
+	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6cc200b1-9316-4d0f-959a-a4a679605562/da2trqm-ae862f85-e368-413c-98e6-3f0fb65f6c4c.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNmNjMjAwYjEtOTMxNi00ZDBmLTk1OWEtYTRhNjc5NjA1NTYyXC9kYTJ0cnFtLWFlODYyZjg1LWUzNjgtNDEzYy05OGU2LTNmMGZiNjVmNmM0Yy5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.Xb-Jlzm4kdQM68EgP1y853eBsZB1AbKylytfl2Hfbb8);
+}
+#contact-bg{
+	background-image: url(https://38.media.tumblr.com/4db5be7085f4d3b06abbc636192b59f4/tumblr_n9823d42by1qk9powo1_500.gif);
+}
