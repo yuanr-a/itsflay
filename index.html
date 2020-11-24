@@ -2,147 +2,147 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-	    <title>Flay!</title>
-	    <link rel="stylesheet" href="./plug/Bootstrap/bootstrap.min.css">
-	    <link rel="icon" type="image/icon" href="favicon.ico">
-	    <script type="text/javascript" src="./plug/Bootstrap/jquery.min.js"></script>
-	    <script src="./plug/Bootstrap/popper.min.js"></script>
-	    <script src="./plug/Bootstrap/bootstrap.min.js"></script>
-	    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-	    <link rel="stylesheet" href="./plug/css/style.css">
-	    <style type="text/css">
-	    	.top-bottom {
-	    		padding: 22.5rem 0;
-	    	}
-	    </style>
+		<title>Flay!</title>
+		<link rel="stylesheet" href="./plug/Bootstrap/bootstrap.min.css">
+		<link rel="icon" type="image/icon" href="favicon.ico">
+		<script type="text/javascript" src="./plug/Bootstrap/jquery.min.js"></script>
+		<script src="./plug/Bootstrap/popper.min.js"></script>
+		<script src="./plug/Bootstrap/bootstrap.min.js"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" href="./plug/css/style.css">
+		<style type="text/css">
+			.top-bottom {
+				padding: 22.5rem 0;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="container">
 			<div class="top-bottom">
 				<div class="row">
-		        <div class="col-2 align-self-center">
-		            <div class="card card-body border-0">
-		            	<a href="#" class="text-body text-decoration-none" onclick="f_home()">
-		            		<h2 class="font-weight-bold">Flay!</h2>
-		            	</a>
-		            	<a href="#" class="text-secondary text-decoration-none links" onclick="f_about()">About</a>
-		            	<a href="#" class="text-secondary text-decoration-none links" onclick="f_works()">Works</a>
-		            	<a href="#" class="text-secondary text-decoration-none links" onclick="f_social()">Social</a>
-		            	<a href="#" class="text-secondary text-decoration-none links" onclick="f_contact()">Contact</a>
-		            </div>
-		        </div>
-		        <div class="col-10" id="home">
-		            <div class="card text-white panels mt-2" id="home-bg">
-		                <div class="card-body py-5 px-5 bg-filter">
-		                	<div class="py-5">
-		                	</div>
-		                </div>
-		            </div>
-		        </div>
-		        <div class="col-10" id="aboutme">
-		            <div class="card text-white panels mt-2" id="aboutme-bg">
-		                <div class="card-body py-5 px-5 bg-filter">
-		                    <h3 class="card-title">About</h3>
-		                    <p class="card-text">trackmaker based in indonesia.</p>
-		                </div>
-		            </div>
-		        </div>
-		        <div class="col-10" id="works">
-		            <div class="card text-white panels" id="works-bg" style="margin-top: -3.05rem">
-		                <div class="card-body pt-5 pb-4 px-5 bg-filter">
-		                    <h3 class="card-title">Works</h3>
-		                    <ul class="list-unstyled">
-		                    	<li class="links">
-		                    		<a href="" class="text-white text-decoration-none links">TBA [Metanoia Music]</a>
-		                    	</li>
-		                    	<li class="links">
-		                    		<a href="https://exobo.lt/adolescent" target="_blank" class="text-white text-decoration-none links">Adolescent (feat. Miss Lina) [Exobolt]</a>
-		                    	</li>
-		                    	<li class="links">
-		                    		<a href="https://release.divr.moe/Memories" target="_blank" class="text-white text-decoration-none links">Memories (w/무읭) [Diversity]</a>
-		                    	</li>
-		                    	<li class="links">
-		                    		<a href="https://lnk.to/flayinthesky" target="_blank" class="text-white text-decoration-none links">In The Sky [The Arcadium]</a>
-		                    	</li>
-		                    </ul>
-		                </div>
-		            </div>
-		        </div>
-		        <div class="col-10" id="social">
-		            <div class="card text-white panels mt-2" id="social-bg">
-		                <div class="card-body py-5 px-5 bg-filter">
-		                    <h3 class="card-title">Social Links</h3>
-		                    <a href="https://twitter.com/itsflay" target="_blank" class="text-white mr-2"><i class="fab fa-twitter links-icon"></i></a>
-		                    <a href="https://instagram.com/itsflay" target="_blank" class="text-white mr-2"><i class="fab fa-instagram links-icon"></i></a>
-		                    <a href="https://open.spotify.com/artist/7BLNXb7u5vSAFJOjkWNFXk" target="_blank" class="text-white mr-2"><i class="fab fa-spotify links-icon"></i></a>
-		                    <a href="https://www.youtube.com/channel/UCZougL5Yr9oTazmi72toPqQ" target="_blank" class="text-white mr-2"><i class="fab fa-youtube links-icon"></i></a>
-		                    <a href="https://soundcloud.com/itsflay" target="_blank" class="text-white mr-2"><i class="fab fa-soundcloud links-icon"></i></a>
-		                </div>
-		            </div>
-		        </div>
-		        <div class="col-10" id="contact">
-		            <div class="card text-white panels" id="contact-bg" style="margin-top: -.25rem;">
-		                <div class="card-body py-5 px-5 bg-filter">
-		                    <h3 class="card-title">Contact</h3>
-		                    <table class="table text-white mb-0">
-		                    	<tr>
-		                    		<td class="border-0 px-0 py-0" style="width: 12.5%"><strong>Inquiries</strong></td>
-		                    		<td class="border-0 px-0 py-0"><a href="mailto:hi@itsflay.live" class="text-white text-decoration-none">hi@itsflay.live</a></td>
-		                    	</tr>
-		                    	<tr>
-		                    		<td class="border-0 px-0 py-0" style="width: 12.5%"><strong>Promos</strong></td>
-		                    		<td class="border-0 px-0 py-0"><a href="mailto:promo@itsflay.live" class="text-white text-decoration-none">promo@itsflay.live</a></td>
-		                    	</tr>
-		                    </table>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
+				<div class="col-2 align-self-center">
+					<div class="card card-body border-0">
+						<a href="#" class="text-body text-decoration-none" onclick="f_home()">
+							<h2 class="font-weight-bold">Flay!</h2>
+						</a>
+						<a href="#" class="text-secondary text-decoration-none links" onclick="f_about()">About</a>
+						<a href="#" class="text-secondary text-decoration-none links" onclick="f_works()">Works</a>
+						<a href="#" class="text-secondary text-decoration-none links" onclick="f_social()">Social</a>
+						<a href="#" class="text-secondary text-decoration-none links" onclick="f_contact()">Contact</a>
+					</div>
+				</div>
+				<div class="col-10" id="home">
+					<div class="card text-white panels mt-2" id="home-bg">
+						<div class="card-body py-5 px-5 bg-filter">
+							<div class="py-5">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-10" id="aboutme">
+					<div class="card text-white panels mt-2" id="aboutme-bg">
+						<div class="card-body py-5 px-5 bg-filter">
+							<h3 class="card-title">About</h3>
+							<p class="card-text">trackmaker based in indonesia.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-10" id="works">
+					<div class="card text-white panels" id="works-bg" style="margin-top: -3.05rem">
+						<div class="card-body pt-5 pb-4 px-5 bg-filter">
+							<h3 class="card-title">Works</h3>
+							<ul class="list-unstyled">
+								<li class="links">
+									<a href="https://metanoia.lnk.to/kogarashi" target="_blank" class="text-white text-decoration-none links">Kogarashi [Metanoia Music]</a>
+								</li>
+								<li class="links">
+									<a href="https://exobo.lt/adolescent" target="_blank" class="text-white text-decoration-none links">Adolescent (feat. Miss Lina) [Exobolt]</a>
+								</li>
+								<li class="links">
+									<a href="https://release.divr.moe/Memories" target="_blank" class="text-white text-decoration-none links">Memories (w/무읭) [Diversity]</a>
+								</li>
+								<li class="links">
+									<a href="https://lnk.to/flayinthesky" target="_blank" class="text-white text-decoration-none links">In The Sky [The Arcadium]</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-10" id="social">
+					<div class="card text-white panels mt-2" id="social-bg">
+						<div class="card-body py-5 px-5 bg-filter">
+							<h3 class="card-title">Social Links</h3>
+							<a href="https://twitter.com/itsflay" target="_blank" class="text-white mr-2"><i class="fab fa-twitter links-icon"></i></a>
+							<a href="https://instagram.com/itsflay" target="_blank" class="text-white mr-2"><i class="fab fa-instagram links-icon"></i></a>
+							<a href="https://open.spotify.com/artist/7BLNXb7u5vSAFJOjkWNFXk" target="_blank" class="text-white mr-2"><i class="fab fa-spotify links-icon"></i></a>
+							<a href="https://www.youtube.com/channel/UCZougL5Yr9oTazmi72toPqQ" target="_blank" class="text-white mr-2"><i class="fab fa-youtube links-icon"></i></a>
+							<a href="https://soundcloud.com/itsflay" target="_blank" class="text-white mr-2"><i class="fab fa-soundcloud links-icon"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-10" id="contact">
+					<div class="card text-white panels" id="contact-bg" style="margin-top: -.25rem;">
+						<div class="card-body py-5 px-5 bg-filter">
+							<h3 class="card-title">Contact</h3>
+							<table class="table text-white mb-0">
+								<tr>
+									<td class="border-0 px-0 py-0" style="width: 12.5%"><strong>Inquiries</strong></td>
+									<td class="border-0 px-0 py-0"><a href="mailto:hi@itsflay.live" class="text-white text-decoration-none">hi@itsflay.live</a></td>
+								</tr>
+								<tr>
+									<td class="border-0 px-0 py-0" style="width: 12.5%"><strong>Promos</strong></td>
+									<td class="border-0 px-0 py-0"><a href="mailto:promo@itsflay.live" class="text-white text-decoration-none">promo@itsflay.live</a></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
 			</div>
 		</div>
 		<script type="text/javascript">
-      $("#home").fadeIn('slow');
-      $("#aboutme").hide();
-      $("#works").hide();
-      $("#social").hide();
-      $("#contact").hide();
+	  $("#home").fadeIn('slow');
+	  $("#aboutme").hide();
+	  $("#works").hide();
+	  $("#social").hide();
+	  $("#contact").hide();
 
-      function f_home(){
-      	$("#home").fadeIn('fast');
-      	$("#aboutme").hide();
-      	$("#works").hide();
-      	$("#social").hide();
-      	$("#contact").hide();
-      }
-      function f_about(){
-      	$("#home").hide();
-      	$("#aboutme").fadeIn('fast');
-      	$("#works").hide();
-      	$("#social").hide();
-      	$("#contact").hide();
-      }
-      function f_works(){
-      	$("#home").hide();
-      	$("#aboutme").hide();
-      	$("#works").fadeIn('fast');
-      	$("#social").hide();
-      	$("#contact").hide();
-      }
-      function f_social(){
-      	$("#home").hide();
-      	$("#aboutme").hide();
-      	$("#works").hide();
-      	$("#social").fadeIn('fast');
-      	$("#contact").hide();
-      }
-      function f_contact(){
-      	$("#home").hide();
-      	$("#aboutme").hide();
-      	$("#works").hide();
-      	$("#social").hide();
-      	$("#contact").fadeIn('fast');
-      }
+	  function f_home(){
+	  	$("#home").fadeIn('fast');
+	  	$("#aboutme").hide();
+	  	$("#works").hide();
+	  	$("#social").hide();
+	  	$("#contact").hide();
+	  }
+	  function f_about(){
+	  	$("#home").hide();
+	  	$("#aboutme").fadeIn('fast');
+	  	$("#works").hide();
+	  	$("#social").hide();
+	  	$("#contact").hide();
+	  }
+	  function f_works(){
+	  	$("#home").hide();
+	  	$("#aboutme").hide();
+	  	$("#works").fadeIn('fast');
+	  	$("#social").hide();
+	  	$("#contact").hide();
+	  }
+	  function f_social(){
+	  	$("#home").hide();
+	  	$("#aboutme").hide();
+	  	$("#works").hide();
+	  	$("#social").fadeIn('fast');
+	  	$("#contact").hide();
+	  }
+	  function f_contact(){
+	  	$("#home").hide();
+	  	$("#aboutme").hide();
+	  	$("#works").hide();
+	  	$("#social").hide();
+	  	$("#contact").fadeIn('fast');
+	  }
 		</script>
 	</body>
 </html>
