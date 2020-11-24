@@ -12,13 +12,32 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<link rel="stylesheet" href="./plug/css/style.css">
 		<style type="text/css">
+			.container-ye{
+				width: 100%;
+			}
+			@media (min-width: 1023px) and (max-width: 9999px) {
+				.webview {
+					display: block!important;
+				}
+				.mobileview{
+					display: none!important;
+				}
+			}
+			@media (max-width: 1022px) {
+				.webview {
+					display: none!important;
+				}
+				.mobileview{
+					display: block!important;
+				}
+			}
 			.top-bottom {
 				padding: 22.5rem 0;
 			}
 		</style>
 	</head>
 	<body>
-		<div class="container">
+		<div class="container webview">
 			<div class="top-bottom">
 				<div class="row">
 				<div class="col-2 align-self-center">
@@ -101,6 +120,7 @@
 			</div>
 			</div>
 		</div>
+		<div class="container mobileview"></div>
 		<script type="text/javascript">
 	  $("#home").fadeIn('slow');
 	  $("#aboutme").hide();
